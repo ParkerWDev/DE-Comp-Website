@@ -61,7 +61,14 @@ function showSlides(n) {
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
   }
-  
+
   slides[slideIndex-1].style.display = "block";  
 }
-console.log("")
+
+w = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth;
+let targetWidth = 768;
+if ( w > targetWidth){
+  alert('Screen size not yet supported, please use a mobile phone or tablet. Update soon!');
+}
+else{
+}
