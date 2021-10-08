@@ -503,8 +503,6 @@ section #title{
   .numbers img{
     margin-left: 10%;
   }
-  #contact-container input, textarea{
-  }
 }
 
 /* TABLETS */
@@ -581,7 +579,7 @@ section #title{
   .service-wrapper div{
     text-align: left;
     margin-bottom: 0;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
   }
   #services img{
     position: relative;
@@ -611,7 +609,12 @@ section #title{
     margin-bottom: 15px;
   }
   #contact-container input, textarea{
-    width: 60vmax;
+    width: 70vw;
+  }
+  #submit-request{
+    min-width: 150px;
+    min-height: 50px;
+    font-size: 25px;
   }
 
  }
