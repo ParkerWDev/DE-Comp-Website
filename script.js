@@ -72,3 +72,7 @@ if ( w > targetWidth){
 }
 else{
 }
+
+function formSent() {
+  alert('Email sent, we will contact you soon!');
+}

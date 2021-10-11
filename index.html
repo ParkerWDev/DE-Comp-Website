@@ -143,12 +143,15 @@
         </div>
         <h2 id="subtitle">Email Us</h2>
         <div id="contact-container">
-            <form action="mailto:parkerw.dev@gmail.com" method="POST">
+            <form action="https://formsubmit.co/14880498f27257d54e4ef94056642784" method="POST">
                 <input type="text" name="name" id="name" required maximum-scale=1 placeholder="Name">
                 <input type="email" name="email" id="email" required maximum-scale=1 placeholder="Email">
                 <input type="number" name="phone number" id="phone" maximum-scale=1 placeholder="Phone (optional)">
-                <textarea name="" id="inquiry" cols="30" rows="10" required maximum-scale=1 placeholder="How Can We Help You?"></textarea>
+                <textarea name="message" id="inquiry" cols="30" rows="10" required maximum-scale=1 placeholder="How Can We Help You?"></textarea>
                 <button id="submit-request" type="submit">Send</button>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/#contact">    <!-- CHANGE BEFORE DEPLOYMENT -->
+                <input type="hidden" name="_template" value="box">
+                <input type="hidden" name="_captcha" value="false">
             </form>
         </div>
     </section>
