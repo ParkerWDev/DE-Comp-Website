@@ -22,7 +22,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="main-styles.css">
 </head>
 <body>
     <a href="#"><img id="company_logo" src="images/vectors/company logo.png" alt="DE's company logo"></a>
@@ -48,6 +48,7 @@
             <h1>D&E<span>Heating<br>& Cooling</h1>
             <p>The only thing better than<br> our service is our prices</p>
         </div>
+    <!--
         <div class="accessibility">
             <img id="handie_icon" src="images/vectors/accessibility-icon.png" alt="">
             <div id="access_container">
@@ -65,13 +66,15 @@
             </div>
         </div>
         <div class="scroll-indicator">
-
         </div> 
+    -->
     </section>
     <section id="about">
         <h1 id="title" class="about-title">D&E <span>Heating & Cooling</span> </h1>
         <h2 class="subheading">HVAC Maintenance experts at an affordable price</h2>
+    <!--  
         <p class="statement">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    -->  
         <iframe id="commercial" src="https://www.youtube.com/embed/cEk8_Flom_Q" title="D&E Company Commercial" allow="accelerometer; &showinfo=0; clipboard-write; picture-in-picture" allowfullscreen ></iframe>
         <div class="slideshow-container">
             <div class="slide">
@@ -106,28 +109,28 @@
             <div class="service">
                 <img src="images/vectors/vent.png" alt="">
                 <div class="service-type">
-                    <h1 class="hvac">HVAC Repair</h1>
+                    <h2 class="hvac">HVAC Repair</h1>
                     <p class="desc">Place holder text for a quick but bit longer statement</p>
                 </div>
             </div>
             <div class="service">
                 <img src="images/vectors/ac.png" alt="">
                 <div class="service-type">
-                    <h1 class="ac">Water heater repair</h1>
+                    <h2 class="ac">Water heater repair</h1>
                     <p class="desc">Place holder text for a quick but bit longer statement</p>
                 </div>
             </div>
             <div class="service">
                 <img src="images/vectors/home.png" alt="">
                 <div class="service-type">
-                    <h1 class="home">Home improvement</h1>
+                    <h2 class="home">Home improvement</h1>
                     <p class="desc">Place holder text for a quick but bit longer statement</p>
                 </div>
             </div>
             <div class="service">
                 <img src="images/vectors/more.png" alt="">
                 <div class="service-type">
-                    <h1 class="more">And More</h1>
+                    <h2 class="more">And More</h1>
                     <p class="desc">Contact us for further inquires regarding our services</p>
                 </div>
             </div>
@@ -143,13 +146,13 @@
         </div>
         <h2 id="subtitle">Email Us</h2>
         <div id="contact-container">
-            <form action="14880498f27257d54e4ef94056642784" method="POST">
+            <form action="https://formsubmit.co/14880498f27257d54e4ef94056642784" method="POST">
                 <input type="text" name="name" id="name" required maximum-scale=1 placeholder="Name">
                 <input type="email" name="email" id="email" required maximum-scale=1 placeholder="Email">
-                <input type="number" name="phone number" id="phone" maximum-scale=1 placeholder="Phone (optional)">
+                <input type="tel" name="phone number" id="phone" maximum-scale=1 placeholder="Phone (optional)">
                 <textarea name="message" id="inquiry" cols="30" rows="10" required maximum-scale=1 placeholder="How Can We Help You?"></textarea>
                 <button id="submit-request" type="submit">Send</button>
-                <input type="hidden" name="_next" value="http://127.0.0.1:5500/#contact">    <!-- CHANGE BEFORE DEPLOYMENT -->
+                <input type="hidden" name="_next" value="https://www.deheatcool.biz/redirect.html">
                 <input type="hidden" name="_template" value="box">
                 <input type="hidden" name="_captcha" value="false">
             </form>

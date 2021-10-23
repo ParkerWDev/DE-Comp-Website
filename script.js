@@ -18,14 +18,14 @@ const accessIcon = document.querySelector('#handie_icon');
 const accessOpen = document.querySelector('#access_container');
 const exitIcon = document.querySelector('#exit-ham')
 
-
+/*
 accessIcon.addEventListener("click", () => {
   accessOpen.classList.toggle("is-active");
 })
 exitIcon.addEventListener("click", () => {
   accessOpen.classList.toggle("is-active");
 })
-
+*/
 
 
 
@@ -66,9 +66,9 @@ function showSlides(n) {
 }
 
 w = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth;
-let targetWidth = 768;
+let targetWidth = 1201;
 if ( w > targetWidth){
-  alert('Screen size not yet supported, please use a mobile phone or tablet. Update soon!');
+  alert('Screen size not yet supported, please downscale browser or use a mobile device. Update soon!');
 }
 else{
 }
@@ -76,3 +76,4 @@ else{
 function formSent() {
   alert('Email sent, we will contact you soon!');
 }
+console.log("updated today at 8:50")
