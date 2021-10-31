@@ -65,15 +65,3 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
 }
 
-w = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth;
-let targetWidth = 1201;
-if ( w > targetWidth){
-  alert('Screen size not yet supported, please downscale browser or use a mobile device. Update soon!');
-}
-else{
-}
-
-function formSent() {
-  alert('Email sent, we will contact you soon!');
-}
-console.log("updated today at 8:50")
